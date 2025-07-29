@@ -30,6 +30,6 @@ echo "planning infra"
 terraform plan
 echo "wait for 10 sec"
 sleep 10
-Echo "started applying the plan"
+echo "started applying the plan"
 # Apply Terraform changes automatically
 terraform apply --auto-approve  
